@@ -10,10 +10,15 @@ public class Ex3_quit
       driver.get("https://www.flipkart.com/");
       Thread.sleep(5000);
 
-      driver.quit();
+    //  driver.quit();
 
+      String title = driver.getTitle();
+      System.out.println(title);
 
+      System.out.println("-----");
+      System.out.println(driver.getTitle());
   }
+
 
 
 

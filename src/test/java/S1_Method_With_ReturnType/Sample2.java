@@ -26,11 +26,9 @@ public class Sample2 {
 
         System.out.println("----");
         System.out.println(getRollNul());
-
-
     }
 
-}
+    }
 
 
 

@@ -1,0 +1,23 @@
+package S3_POM_With_Pagefactory;
+
+public class Sample1
+{
+    //1.variable should be declared globally with access level private
+    private  int num1;
+    private  int num2;
+
+
+    //2.Intialize within a constructor with access level public
+    public Sample1() {
+        num1 = 10;
+        num2 = 20;
+    }
+    //3.Utilize global variables within a method with access level public
+    public void add() {
+        System.out.println(num1 + num2);
+    }
+    public void sub()
+    {
+        System.out.println(num1-num2);
+    }
+}
